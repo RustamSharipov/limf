@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>EvenD</title>
+        <link rel="stylesheet" href="design/styles/style.css" />
+        <link rel="stylesheet" href="design/default/styles/style.css" />
+        <script src="scripts/jquery/jquery-1.7.1.min.js"></script>
+        <script src="scripts/jquery/jquery.mobile-1.1.0.js"></script>
+    	<script src="scripts/cordova/cordova-1.8.1.js"></script>
+        <script src="http://maps.google.com/maps?gwt=1&amp;file=api&amp;sensor=false&amp;v=2&amp;key=ABQIAAAAX7R7R5bJbQNivyvLs8_DVhRc2EsLPf5d1DOimTtxG1Ct8NYuTBRa9x8_R3lZZXGREFLa7XI1UE1GDg"></script>
+        <script src="scripts/master.js"></script>
+        <script>
+            var hostPath = 'http://scieson.com/evend/evendhost.cshtml';
+        </script>
+    </head>
+    <body>
+        <div data-role="page" data-theme="a" id="one">
+    	    <header data-role="header" data-position="fixed">
+                <h1 class="logo">EvenD</h1>
+            </header>
+            <section data-role="content" class="app-content">
+                <ul data-role="listview" data-theme="d" data-dividertheme="e" data-inset="false" data-filter="false">
+	                <li><a href="#two" data-transition="fade">
+                        <div class="label">
+                            <div class="label-image">
+                                <img src="content/images/001.png" alt="image" class="image" height="32" width="32" />
+                            </div>
+                            <div class="label-name">Party 1</div>
+                        </div>
+                    </a></li>
+	                <li><a href="#two" data-transition="fade">
+                        <div class="label">
+                            <div class="label-image">
+                                <img src="content/images/001.png" alt="image" class="image" height="32" width="32" />
+                            </div>
+                            <div class="label-name">Party 1</div>
+                        </div>
+                    </a></li>
+	                <li><a href="#two" data-transition="fade">
+                        <div class="label">
+                            <div class="label-image">
+                                <img src="content/images/001.png" alt="image" class="image" height="32" width="32" />
+                            </div>
+                            <div class="label-name">Party 1</div>
+                        </div>
+                    </a></li>
+	                <li><a href="#two" data-transition="fade">
+                        <div class="label">
+                            <div class="label-image">
+                                <img src="content/images/001.png" alt="image" class="image" height="32" width="32" />
+                            </div>
+                            <div class="label-name">Party 1</div>
+                        </div>
+                    </a></li>
+	                <li><a href="#two" data-transition="fade">
+                        <div class="label">
+                            <div class="label-image">
+                                <img src="content/images/001.png" alt="image" class="image" height="32" width="32" />
+                            </div>
+                            <div class="label-name">Party 1</div>
+                        </div>
+                    </a></li>
+                </ul>
+            </section>
+            <footer data-role="footer" data-position="fixed">
+                <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
+		            <ul>
+			            <li><a href="#one" id="chat" data-icon="custom">Event List</a></li>
+			            <li><a href="#two" id="email" data-icon="custom">Event Map</a></li>
+			            <li><a href="#" id="skull" data-icon="custom">Favorite</a></li>
+			            <li><a href="#" id="coffee" data-icon="custom">Add</a></li>
+		            </ul>
+		        </div>
+            </footer>
+        </div>
+        <div data-role="page" data-theme="a" id="two">
+    	    <header data-role="header" data-position="fixed">
+                <h1 class="logo">EvenD</h1>
+            </header>
+            <section data-role="content" class="app-content">
+                <div id="map"></div>
+                <div id="geolocation">Watching geolocation...</div>
+            </section>
+            <footer data-role="footer" data-position="fixed">
+                <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
+		            <ul>
+			            <li><a href="#one" id="chat" data-icon="custom">Event List</a></li>
+			            <li><a href="#two" id="email" data-icon="custom">Event Map</a></li>
+			            <li><a href="#" id="skull" data-icon="custom">Favorite</a></li>
+			            <li><a href="#" id="coffee" data-icon="custom">Add</a></li>
+		            </ul>
+		        </div>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+#geolocation {
+	background: #FAFBF4;
+	border: 1px solid #888;
+	border-radius: 15px;
+	padding: 10px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+#map {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+#controls {
+	
+}
+
+.label {
+    display: table;
+    height: 32px;
+    vertical-align: middle;
+}
+    .label .label-image {
+        display: table-cell;
+        vertical-align: middle;
+        width: 40px;
+    }
+        .label .label-image img {
+            background: silver;
+        }
+    .label .label-name {
+        display: table-cell;
+        vertical-align: middle;
+    }
